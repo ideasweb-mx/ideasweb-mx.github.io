@@ -141,6 +141,6 @@ function sendEmail() {
     Subject : "Mensaje de "+document.getElementById('name').value,
     Body : document.getElementById('message').value
 }).then(
-  message => console.warn(message)
+  message => alert.warn(message)
 );
 }
